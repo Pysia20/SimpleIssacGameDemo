@@ -1,0 +1,29 @@
+{
+    "perks": [
+        {
+            "name": "heal",
+            "style": "#1be022",
+            "code": "player.hp += 25"
+        },
+        {
+            "name": "gountlingstick",
+            "style": "#9c007f",
+            "code": "shotCool = 50;SharpStick.length = 5;SharpStick.dmg = SharpStick.dmg / 4;SharpStick.speed += 5"
+        },
+        {
+            "name": "blueshoes",
+            "style": "#2612ff",
+            "code": "player.normalspeed += 1;player.slowspeed += 1"
+        },
+        {
+            "name": "pencilsharpner",
+            "style": "#e4f70c",
+            "code": "SharpStick.dmg += 1"
+        },
+        {
+            "name": "laser",
+            "style": "#ff002f",
+            "code": "SharpStick.width = 1;shotCool = 5;SharpStick.dmg = SharpStick.dmg / 10;SharpStick.speed += 2"
+        }
+    ]
+}
